@@ -1,0 +1,131 @@
+/* Estilos para el componente Registro */
+.registro {
+    background-color: #f4f4f4; /* Fondo claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    padding: 20px;
+  }
+  
+  .registro .content {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .registro .titulo {
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .registro .form-container {
+    margin-top: 20px;
+  }
+  
+  .registro .heading {
+    margin-bottom: 20px;
+  }
+  
+  .registro .titulo-principal {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 10px;
+  }
+  
+  .registro .subtitulo {
+    font-size: 16px;
+    color: #555;
+    margin: 0;
+  }
+  
+  .registro .google-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4285f4;
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .registro .google-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .registro .google-text {
+    font-size: 14px;
+  }
+  
+  .registro .separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .registro .line {
+    height: 1px;
+    background-color: #ddd;
+    flex: 1;
+  }
+  
+  .registro .text {
+    margin: 0 10px;
+    color: #888;
+    font-size: 14px;
+  }
+  
+  .registro .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registro .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .registro .input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .registro .boton {
+    background-color: #00a695;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .registro .boton:hover {
+    background-color: #008570;
+  }
+  
+  .registro .terminos {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .registro .terminos span {
+    color: #00a695;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  

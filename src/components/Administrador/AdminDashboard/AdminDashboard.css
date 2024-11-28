@@ -1,0 +1,75 @@
+/* Estilos generales del panel de administrador */
+.admin-dashboard {
+  display: flex;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #181818;
+  color: #ffffff;
+}
+
+/* Encabezado */
+.admin-header {
+  width: 100%;
+  padding: 20px;
+  background-color: #2c2c2c;
+  color: #33cc99;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Barra lateral */
+.admin-sidebar {
+  width: 250px;
+  padding-top: 80px; /* Para evitar superposición con el header */
+  background-color: #2c2c2c;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 500;
+}
+
+.admin-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.admin-sidebar li {
+  margin: 20px 0;
+}
+
+.admin-sidebar a {
+  text-decoration: none;
+  color: #33cc99;
+  padding: 10px;
+  display: block;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.admin-sidebar a:hover {
+  background-color: #33cc99;
+  color: #181818;
+}
+
+/* Contenido principal */
+.admin-content {
+  flex: 1;
+  margin-left: 250px; /* Espacio para la barra lateral */
+  padding: 80px 20px 20px; /* Espacio para el header */
+}
+
+.admin-content h2 {
+  font-size: 28px;
+  color: #33cc99;
+}
+
+.admin-content p {
+  font-size: 16px;
+  line-height: 1.6;
+}

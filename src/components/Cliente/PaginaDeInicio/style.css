@@ -1,0 +1,63 @@
+.pagina-de-inicio {
+    background-color: #b1b0b0; /* Color de fondo neutro */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    width: 100%;
+    padding: 0 20px; /* Espaciado para evitar bordes pegados */
+  }
+  
+  .pagina-de-inicio .content {
+    text-align: center;
+    max-width: 600px; /* Limita el ancho del contenido */
+  }
+  
+  .pagina-de-inicio .titulo {
+    color: #000000; /* Texto negro */
+    font-family: "Playfair Display-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 20px; /* Espacio debajo del título */
+  }
+  
+  .pagina-de-inicio .descripcion {
+    color: #000000; /* Texto negro */
+    font-family: "Lato-Regular", Helvetica;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 30px; /* Espacio debajo del párrafo */
+  }
+  
+  .pagina-de-inicio .acciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Espacio entre el botón y el icono */
+  }
+  
+  .pagina-de-inicio .boton {
+    background-color: #00a695; /* Color del botón */
+    border: none;
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 16px 24px; /* Espaciado interno */
+    color: #f7fffb; /* Texto blanco */
+    font-family: "Lato-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase; /* Texto en mayúsculas */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagina-de-inicio .boton:hover {
+    background-color: #008570; /* Cambio de color al pasar el cursor */
+  }
+  
+  .pagina-de-inicio .icono-consola {
+    width: 100px; /* Tamaño del icono */
+    height: auto; /* Mantiene la proporción */
+  }
+  

@@ -1,0 +1,19 @@
+.cliente-page {
+  display: flex;
+  min-height: 100vh;
+}
+
+.cliente-page-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f4f6f9;
+  margin-left: 250px; /* Espacio para la barra lateral */
+}
+
+.cliente-page h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Estilos adicionales para el contenido */

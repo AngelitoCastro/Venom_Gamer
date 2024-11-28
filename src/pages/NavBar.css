@@ -1,0 +1,34 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #2c3e50;
+  color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-title {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.navbar-list {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar-list li {
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.navbar-list li:hover {
+  background-color: #34495e;
+}

@@ -1,0 +1,101 @@
+.reservas-container {
+  padding: 2rem;
+  background-color: #121212; /* Fondo oscuro */
+  color: #fff;
+  font-family: "Arial", sans-serif;
+}
+
+.reservas-container h1 {
+  text-align: center;
+  color: #00ffff; /* Color Venom Gamer */
+  margin-bottom: 2rem;
+}
+
+.tabla-container {
+  margin: 2rem 0;
+}
+
+.tabla-container h2 {
+  color: #00cccc;
+  margin-bottom: 1rem;
+}
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+  background-color: #1e1e1e;
+}
+
+.tabla thead {
+  background-color: #00ffff;
+}
+
+.tabla thead th {
+  padding: 1rem;
+  text-align: left;
+  color: #121212;
+}
+
+.tabla tbody tr:nth-child(even) {
+  background-color: #2a2a2a;
+}
+
+.tabla tbody tr:nth-child(odd) {
+  background-color: #1e1e1e;
+}
+
+.tabla tbody td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+
+.tabla tbody tr:hover {
+  background-color: #00cccc;
+  color: #121212;
+}
+
+.form-container {
+  background-color: #1e1e1e;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.form-container h2 {
+  color: #00cccc;
+  margin-bottom: 1rem;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container label {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.form-container input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: #333;
+  border: 1px solid #444;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.form-container button {
+  padding: 0.8rem;
+  background-color: #00cccc;
+  color: #121212;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.form-container button:hover {
+  background-color: #00ffff;
+}

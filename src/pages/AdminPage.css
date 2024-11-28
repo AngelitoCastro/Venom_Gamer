@@ -1,0 +1,19 @@
+.admin-page {
+  display: flex;
+  min-height: 100vh;
+}
+
+.admin-page-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f4f6f9;
+  margin-left: 250px; /* Deja espacio para la barra lateral */
+}
+
+.admin-page h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Estilos adicionales para el contenido */

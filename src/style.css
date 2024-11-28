@@ -1,0 +1,104 @@
+/* Reiniciar márgenes y rellenos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo global para el body */
+  body {
+    font-family: "Lato", sans-serif; /* Fuente principal */
+    background-color: #f4f4f4; /* Fondo neutro */
+    color: #333; /* Color de texto predeterminado */
+    line-height: 1.6; /* Espaciado entre líneas */
+  }
+  
+  /* Contenedor principal de la aplicación */
+  .app {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Estilo para botones globales */
+  button {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #00a695; /* Verde brillante */
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #008570; /* Verde más oscuro al pasar el cursor */
+  }
+  
+  /* Enlaces globales */
+  a {
+    color: #00a695;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #008570;
+  }
+  
+  /* Estilos para encabezados */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  
+  h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  
+  /* Clases de utilidad */
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-white {
+    color: #ffffff;
+  }
+  
+  .bg-primary {
+    background-color: #00a695;
+  }
+  
+  .bg-secondary {
+    background-color: #f4f4f4;
+  }
+  
+  .rounded {
+    border-radius: 8px;
+  }
+  
+  .shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

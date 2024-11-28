@@ -1,0 +1,125 @@
+.detalles-de-la {
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .detalles-de-la .div {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .detalles-de-la .rectangle {
+    height: 141px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .detalles-de-la .text-wrapper {
+    color: #000;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+  
+  .detalles-de-la .cuenta-con-servicio {
+    color: #000;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .detalles-de-la .text-wrapper-2 {
+    color: #00a695;
+    font-family: "Lato-Bold", Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .detalles-de-la .text-wrapper-3 {
+    color: #000;
+    font-family: "Lato-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .detalles-de-la .overlap {
+    margin-top: 30px;
+    background-color: #49ec76;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .detalles-de-la .rectangle-2 {
+    background-color: #49ec76;
+    border-radius: 69px;
+    height: 40px;
+    width: 150px;
+  }
+  
+  .detalles-de-la .text-wrapper-4 {
+    color: #000;
+    font-family: "Lato-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .detalles-de-la .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .detalles-de-la .volver {
+    margin-top: 20px;
+  }
+  
+  .detalles-de-la .polygon {
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+  }
+  
+  .detalles-de-la .input-form {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .detalles-de-la .text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .detalles-de-la .placeholder-text {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+  }
+  

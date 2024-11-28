@@ -1,0 +1,290 @@
+.inicio-de-sesion {
+    background-color: #b1afaf;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .inicio-de-sesion .div {
+    background-color: #b1afaf;
+    height: 800px;
+    position: relative;
+    width: 360px;
+  }
+  
+  .inicio-de-sesion .titulo {
+    height: 48px;
+    left: 57px;
+    position: absolute;
+    top: 51px;
+    width: 247px;
+  }
+  
+  .inicio-de-sesion .button {
+    all: unset;
+    align-items: center;
+    background-color: #00a695;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    left: 76px;
+    padding: 16px 24px;
+    position: absolute;
+    top: 674px;
+    width: 209px;
+  }
+  
+  .inicio-de-sesion .text-container {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: 8px;
+    height: 22px;
+    justify-content: center;
+    padding: 0px 4px;
+    position: relative;
+  }
+  
+  .inicio-de-sesion .CTA {
+    all: unset;
+    box-sizing: border-box;
+    color: #f7fffb;
+    flex: 1;
+    font-family: 'Lato-Regular', Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    margin-top: -1.00px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .inicio-de-sesion .copy-component {
+    align-items: center;
+    background-color: #181517;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 520px;
+    justify-content: center;
+    left: 45px;
+    max-width: 480px;
+    padding: 32px;
+    position: absolute;
+    top: 140px;
+    width: 269px;
+  }
+  
+  .inicio-de-sesion .heading-container {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    margin-top: -1.00px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .inicio-de-sesion .sign-up-heading {
+    align-self: stretch;
+    color: #f7fffb;
+    font-family: 'Playfair Display-Black', Helvetica;
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: 46.8px;
+    margin-top: -1.00px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .inicio-de-sesion .subheading {
+    align-self: stretch;
+    color: #d0dbd6;
+    font-family: 'Lato-Regular', Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 27px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .inicio-de-sesion .google-login {
+    align-items: center;
+    align-self: stretch;
+    background-color: #2a2629;
+    border: 1px solid;
+    border-color: #40393d;
+    border-radius: 8px;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 12px;
+    justify-content: center;
+    padding: 16px 8px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .inicio-de-sesion .google-icon {
+    height: 24px;
+    position: relative;
+    width: 24px;
+  }
+  
+  .inicio-de-sesion .continue-with-google {
+    color: #f7fffb;
+    font-family: 'Lato-Regular', Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .inicio-de-sesion .separator {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 24px;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .inicio-de-sesion .line {
+    background-color: #40393d;
+    flex: 1;
+    flex-grow: 1;
+    height: 1px;
+    position: relative;
+  }
+  
+  .inicio-de-sesion .text-wrapper {
+    color: #d0dbd6;
+    font-family: 'Lato-Regular', Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 19.2px;
+    margin-top: -1.00px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .inicio-de-sesion .form {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    height: 206px;
+    justify-content: space-between;
+    margin-bottom: -1.00px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .inicio-de-sesion .input {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    height: 59px;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .inicio-de-sesion .input-form {
+    align-items: center;
+    align-self: stretch;
+    background-color: #181517;
+    border: 1px solid;
+    border-color: #40393d;
+    border-radius: 4px;
+    display: flex;
+    gap: 4px;
+    height: 56px;
+    padding: 16px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .inicio-de-sesion .placeholder-text {
+    color: #d0dbd6;
+    display: block; /* Cambié a block para mayor compatibilidad */
+    font-family: 'Lato-Regular', Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    margin-top: -1.00px;
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: fit-content;
+    /* Elimina las propiedades específicas para Webkit si no las necesitas */
+  }
+  
+  
+  .inicio-de-sesion .text-container-wrapper {
+    all: unset;
+    align-items: center;
+    background-color: #00a695;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 4px;
+    height: 43px;
+    justify-content: center;
+    padding: 16px 25px 16px 24px;
+    position: relative;
+    width: 195px;
+  }
+  
+  .inicio-de-sesion .CTA-wrapper {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: 8px;
+    height: 22px;
+    justify-content: center;
+    margin-bottom: -5.50px;
+    margin-top: -5.50px;
+    padding: 0px 4px;
+    position: relative;
+  }
+  
+  .inicio-de-sesion .by-continuing-you {
+    color: #000000;
+    font-family: 'Lato-Regular', Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    height: 52px;
+    left: 77px;
+    letter-spacing: 0;
+    line-height: 19.2px;
+    position: absolute;
+    text-align: center;
+    top: 734px;
+    width: 205px;
+  }
+  

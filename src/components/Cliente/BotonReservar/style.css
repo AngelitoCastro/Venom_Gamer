@@ -1,0 +1,157 @@
+.boton-reservar {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .boton-reservar .overlap-wrapper {
+    width: 100%;
+    max-width: 293px;
+  }
+  
+  .boton-reservar .overlap {
+    background-color: #b1b0b0;
+    border-radius: 24px;
+    width: 100%;
+    max-width: 293px;
+    height: 293px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .boton-reservar .element {
+    height: 45px;
+    width: 45px;
+    object-fit: cover;
+    position: absolute;
+    top: 193px;
+  }
+  
+  .boton-reservar .rectangle {
+    background-color: #b1b0b0;
+    border-radius: 24px;
+    height: 293px;
+    width: 100%;
+  }
+  
+  .boton-reservar .img {
+    height: 133px;
+    object-fit: cover;
+    width: 100%;
+    max-width: 233px;
+    margin-top: 37px;
+  }
+  
+  .boton-reservar .group {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .boton-reservar .overlap-group {
+    background-color: #6bf78a;
+    border-radius: 69px;
+    height: 30px;
+    width: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .boton-reservar .text-wrapper {
+    color: #000;
+    font-family: "Lato-Bold", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    line-height: normal;
+    width: 80%;
+  }
+  
+  .boton-reservar .div {
+    color: #000;
+    font-family: "Lato-Bold", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    width: 80%;
+  }
+  
+  .boton-reservar .text-wrapper-2 {
+    color: #000;
+    font-family: "Lato-Bold", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .boton-reservar .cerrar {
+    height: 13px;
+    position: absolute;
+    top: 16px;
+    right: 10px;
+  }
+  
+  .boton-reservar .overlap-2 {
+    height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .boton-reservar .line,
+  .boton-reservar .line-2 {
+    height: 14px;
+    width: 14px;
+    object-fit: cover;
+  }
+  
+  .boton-reservar .input-form {
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #40393d;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    width: 100%;
+    max-width: 222px;
+    margin-top: 20px;
+  }
+  
+  .boton-reservar .text-container {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    width: 100%;
+  }
+  
+  .boton-reservar .placeholder-text {
+    color: #000;
+    font-family: "Lato-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    width: 180px;
+  }
+  
+  .boton-reservar .element-2 {
+    height: 58px;
+    object-fit: cover;
+    position: absolute;
+    top: 188px;
+    left: 13px;
+    width: 58px;
+  }
+  
