@@ -14,32 +14,25 @@ const AdminRoutes = () => {
       {/* Ruta para el login del administrador */}
       <Route path="/admin-login" element={<AdminLogin />} />
 
-      {/* Ruta para el dashboard del administrador */}
-      <Route path="/admin-dashboard" element={<AdminDashboard />} />
-
-      {/* Rutas para gestionar reservas */}
-      <Route path="/admin-reservas" element={<Reservas />} />
-
-      {/* Rutas para gestionar ingresos/egresos */}
-      <Route path="/admin-ingresos-egresos" element={<IngresosEgresos />} />
-
-      {/* Rutas para gestionar mantenimiento y suscripciones */}
-      <Route
-        path="/admin-mantenimiento-suscripciones"
-        element={<MantenimientoSuscripciones />}
-      />
-
-      {/* Ruta para ver usuarios registrados */}
-      <Route
-        path="/admin-usuarios-registrados"
-        element={<UsuariosRegistrados />}
-      />
-
-      {/* Ruta para gestionar tiempo de uso */}
-      <Route path="/admin-tiempo-de-uso" element={<TiempoDeUso />} />
-
-      {/* Ruta por defecto (admin login si no hay sesión) */}
+      {/* Ruta por defecto para el admin: Si el usuario ya está autenticado o logueado */}
       <Route path="/" element={<AdminLogin />} />
+
+      {/* Todas las rutas administrativas se agrupan bajo /admin */}
+      <Route path="/admin/*" element={<AdminDashboard />}>
+        {/* Aquí agregas todas las rutas que deberían estar dentro del panel de administrador */}
+        <Route path="admin-dashboard" element={<AdminDashboard />} />
+        <Route path="admin-reservas" element={<Reservas />} />
+        <Route path="admin-ingresos-egresos" element={<IngresosEgresos />} />
+        <Route
+          path="admin-mantenimiento-suscripciones"
+          element={<MantenimientoSuscripciones />}
+        />
+        <Route
+          path="admin-usuarios-registrados"
+          element={<UsuariosRegistrados />}
+        />
+        <Route path="admin-tiempo-de-uso" element={<TiempoDeUso />} />
+      </Route>
     </Routes>
   );
 };

@@ -1,20 +1,23 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { AdminDashboard } from "./components/administrador/AdminDashboard";
-import { UsuariosRegistrados } from "./components/administrador/UsuariosRegistrados";
-import { Reservas } from "./components/administrador/Reservas";
 
-const App = () => {
+const AdminDashboard = () => {
   return (
-    <Router>
-      <Routes>
-        <Route path="/admin" element={<AdminDashboard />} />
-        <Route path="/admin/usuarios" element={<UsuariosRegistrados />} />
-        <Route path="/admin/reservas" element={<Reservas />} />
-        {/* Agrega más rutas según las secciones */}
-      </Routes>
-    </Router>
+    <div>
+      <h1>Dashboard del Administrador</h1>
+      <p>Bienvenido al panel de administración de Venom Gamer.</p>
+      <nav>
+        <ul>
+          <li>
+            <a href="/admin/usuarios">Usuarios Registrados</a>
+          </li>
+          <li>
+            <a href="/admin/reservas">Reservas</a>
+          </li>
+          {/* Agrega enlaces adicionales para otras secciones */}
+        </ul>
+      </nav>
+    </div>
   );
 };
 
-export default App;
+export default AdminDashboard;
